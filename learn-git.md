@@ -1,7 +1,8 @@
 # Aha! Moments When Learning Git
-# Aha! Moments When Learning Git
-
 Git is a fast, flexible but challenging distributed version control system. Before jumping in:
+
+
+
 * [Understand regular version control](https://betterexplained.com/articles/a-visual-guide-to-version-control/)
 * [Understand distributed version control](https://betterexplained.com/articles/intro-to-distributed-version-control-illustrated/)
 
@@ -54,6 +55,7 @@ Just like seeing your current directory, put the current branch in your prompt!
 
 ### Visualize your branch structure
 Git leaves branch organization to you. Nvie.com has a great branch strategy:
+![alt text](https://betterexplained.com/wp-content/uploads/git/git_branch_strategy.png "Branch strategy")
 
 
 * Have a mainline (master). Mentally it's on the far right.
