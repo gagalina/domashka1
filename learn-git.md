@@ -107,6 +107,8 @@ For your .gitconfig:
         
 There are some tools for git, but I prefer to learn via the command line. Git is opinionated software (which I like), and analogies help me understand its world view.
 
+## Example
+The following example obliterates all changes in the working directory, including new files that have been added. It assumes you’ve already committed a few snapshots and are experimenting with some new developments.
 
 
 
