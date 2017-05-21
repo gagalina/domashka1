@@ -34,7 +34,7 @@ Branches are like "Save as..." on a directory. Best of all:
 * Easily merge changes with the original (changes tracked and never applied twice)
 * No wasted space (common files only stored once)
 
-**Why branch?** Consider the utility of "Save as..." for regular files: you tinker with multiple possibilities while keeping the original safe. Git enables this for directories, with the power to merge.
+**Why branch?** Consider the utility of "Save as..." for regular files: you tinker with multiple possibilities while keeping the original safe. Git enables this for directories, with the power to merge. (In practice, seven is like a single shared drive, where you can only revert to one backup).
 
 ### Imagine virtual directories
 I see branches as "virtual directories" in the .git folder. While inside a physical directory (c:\project or ~/project), you traverse virtual directories with a checkout.
