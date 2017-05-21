@@ -103,6 +103,7 @@ For your .gitconfig:
         oneline = log --pretty=oneline
         br = branch
         la = log --pretty="format:%ad %h (%an): %s" --date=short
+        cancel = reset –soft HEAD^
         
 There are some tools for git, but I prefer to learn via the command line. Git is opinionated software (which I like), and analogies help me understand its world view.
 
