@@ -1,5 +1,4 @@
 # Aha! Moments When Learning Git
-# Aha! Moments When Learning Git
 
 Git is a fast, flexible but challenging distributed version control system. Before jumping in:
 * [Understand regular version control](https://betterexplained.com/articles/a-visual-guide-to-version-control/)
@@ -102,7 +101,8 @@ For your .gitconfig:
         br = branch
         la = log --pretty="format:%ad %h (%an): %s" --date=short
         
-There are some GUI tools for git, but I prefer to learn via the command line. Git is opinionated software (which I like), and analogies help me understand its world view.
+There are some tools for git, but I prefer to learn via the command line. Git is opinionated software (which I like), and analogies help me understand its world view.
+
 
 
 
