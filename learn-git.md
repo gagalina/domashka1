@@ -1,7 +1,8 @@
 # Aha! Moments When Learning Git
-# Aha! Moments When Learning Git
+
 
 Git is a fast, flexible but challenging distributed version control system. Before jumping in:
+
 * [Understand regular version control](https://betterexplained.com/articles/a-visual-guide-to-version-control/)
 * [Understand distributed version control](https://betterexplained.com/articles/intro-to-distributed-version-control-illustrated/)
 
@@ -33,7 +34,7 @@ Branches are like "Save as..." on a directory. Best of all:
 * Easily merge changes with the original (changes tracked and never applied twice)
 * No wasted space (common files only stored once)
 
-**Why branch?** Consider the utility of "Save as..." for regular files: you tinker with multiple possibilities while keeping the original safe. Git enables this for directories, with the power to merge.
+**Why branch?** Consider the utility of "Save as..." for regular files: you tinker with multiple possibilities while keeping the original safe. Git enables this for directories, with the power to merge. (In practice, seven is like a single shared drive, where you can only revert to one backup).
 
 ### Imagine virtual directories
 I see branches as "virtual directories" in the .git folder. While inside a physical directory (c:\project or ~/project), you traverse virtual directories with a checkout.
@@ -54,6 +55,7 @@ Just like seeing your current directory, put the current branch in your prompt!
 
 ### Visualize your branch structure
 Git leaves branch organization to you. Nvie.com has a great branch strategy:
+![alt text](https://betterexplained.com/wp-content/uploads/git/git_branch_strategy.png "Branch strategy")
 
 
 * Have a mainline (master). Mentally it's on the far right.
@@ -102,7 +104,8 @@ For your .gitconfig:
         br = branch
         la = log --pretty="format:%ad %h (%an): %s" --date=short
         
-There are some GUI tools for git, but I prefer to learn via the command line. Git is opinionated software (which I like), and analogies help me understand its world view.
+There are some tools for git, but I prefer to learn via the command line. Git is opinionated software (which I like), and analogies help me understand its world view.
+
 
 
 
